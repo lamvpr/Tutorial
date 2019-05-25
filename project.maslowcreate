@@ -3,8 +3,8 @@
         {
             "atomType": "Molecule",
             "name": "Molecule - Rotate and Move",
-            "x": 816,
-            "y": 77,
+            "x": 815.7354205033763,
+            "y": 78.03314917127072,
             "uniqueID": 742531,
             "ioValues": [
                 {
@@ -102,8 +102,8 @@
                 {
                     "atomType": "Output",
                     "name": "Output",
-                    "x": 1316,
-                    "y": 164,
+                    "x": 1127,
+                    "y": 186.5,
                     "ioValues": []
                 }
             ],
@@ -211,10 +211,6 @@
                         {
                             "name": "radius",
                             "ioValue": 9.9
-                        },
-                        {
-                            "name": "max segment size",
-                            "ioValue": 1
                         }
                     ]
                 },
@@ -281,8 +277,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Molecule - Rotate and Move",
-                    "x": 816,
-                    "y": 77,
+                    "x": 815.7354205033763,
+                    "y": 78.03314917127072,
                     "uniqueID": 742531,
                     "ioValues": [
                         {
@@ -313,20 +309,20 @@
                     ]
                 },
                 {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 1127,
+                    "y": 186.5,
+                    "ioValues": []
+                },
+                {
                     "atomType": "Readme",
                     "name": "README",
-                    "x": 1238,
+                    "x": 1157,
                     "y": 123,
                     "uniqueID": 650474,
                     "ioValues": [],
                     "readmeText": "The output of the program defines what will be displayed in the project thumbnail and what shape will be used for displaying changes over time. The output of the project should be connected to the output Atom. Each Molecule comes with one Output atom which cannot be deleted."
-                },
-                {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 1316,
-                    "y": 164,
-                    "ioValues": []
                 }
             ],
             "allConnectors": [
@@ -392,5 +388,6 @@
             ],
             "fileTypeVersion": 1
         }
-    ]
+    ],
+    "circleSegmentSize": 2
 }
